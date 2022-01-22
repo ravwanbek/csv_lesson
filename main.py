@@ -1,7 +1,8 @@
 
 def get_column(data):
     column_name = []
-    a=f.readline()
+    
+    a=data.readline(0)
     column_name.append(a)
     return column_name
 
